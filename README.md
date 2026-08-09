@@ -6,16 +6,16 @@ El proyecto está estructurado en un modelo de Power BI de **dos páginas** comp
 
 ---
 
-## 🛠️ Stack Tecnológico y Flujo de Procesamiento de Datos (ETL)
+## 🛠️ Stack Tecnológico y Herramientas Utilizadas
 
-* **Microsoft Excel (ETL Inicial - Parte 1):** 
-  * **Uso:** Limpieza, estructuración preliminar de datasets y consolidación de tablas base de la muestra inicial.
-  * **Técnicas:** Eliminación de duplicados, normalización manual de campos de texto y validación de la estructura del dataset de origen.
-
-* **Power Query en Power BI (ETL Avanzado y Automatizado - Parte 2):** 
-  * **Uso:** Modelado, transformación de series temporales y preparación de datos para analítica predictiva.
-  * **Técnicas:** Unificación de consultas, estandarización de tipos de datos numéricos/fechas, creación de columnas personalizadas e ingesta optimizada para habilitar el motor de *Forecast* y tendencias.
-
+* **Microsoft Excel:** 
+  * **Uso:** Limpieza inicial, estructuración de dos datasets independientes (`.xlsx`) y procesamiento de datos crudos (ETL).
+  * **Técnicas:** Eliminación de duplicados, normalización de campos de texto, tratamiento de valores nulos/ausentes y validación de tipos de datos antes de la ingesta a Power BI.
+* **Power BI:** 
+  * **Uso:** Modelado de datos, creación de medidas/métricas implícitas y explícitas, diseño de dashboard interactivo de 2 páginas y analítica avanzada para graficar los resultados.
+  * **Herramientas:** Tarjetas KPI, gráficos de rosca, distribución de frecuencias, líneas de referencia (Media y Mediana), interacciones unificadas en cascada, líneas de tendencia por regresión lineal y modelos de proyección predictiva (**Forecast**) con un 95% de intervalo de confianza.
+* **Markdown:** 
+  * **Uso:** Documentación ejecutiva e informe de hallazgos estratégicos.
 ---
 
 ## 📊 PARTE 1: Exploración, Limpieza y Diagnóstico Cualitativo (Página 1)
